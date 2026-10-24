@@ -3,7 +3,6 @@
 import Image from "next/image";
 import { motion, type Variants } from "framer-motion";
 
-// Dono roses ek hi parent se trigger hongi (image aur text ke baad)
 const rosesContainer: Variants = {
   hidden: {},
   visible: {
@@ -11,7 +10,6 @@ const rosesContainer: Variants = {
   },
 };
 
-// Top rose: right se left, thodi rotation ke sath
 const topRose: Variants = {
   hidden: { x: 150, rotate: -15, opacity: 0 },
   visible: {

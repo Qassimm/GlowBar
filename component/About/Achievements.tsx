@@ -4,7 +4,6 @@ import { useEffect, useRef } from "react";
 import { motion, animate, useInView, type Variants } from "framer-motion";
 import { achievementsData } from "@/Data/achievements";
 
-// Number ko 0 se target tak count karta hai
 const Counter = ({ value, duration = 2 }: { value: string; duration?: number }) => {
   const ref = useRef<HTMLSpanElement>(null);
   const inView = useInView(ref, { once: true, amount: 0.5 });

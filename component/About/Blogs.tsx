@@ -132,8 +132,6 @@ const Blogs = () => {
             ))}
           </motion.div>
         )}
-
-        {/* Right wali rose: right se left */}
         <motion.img
           src="/assets/rose.webp"
           alt="Rose"
@@ -144,7 +142,6 @@ const Blogs = () => {
           className="h-35 lg:h-30 w-35 lg:w-30 absolute hidden md:block top-30 right-0 -z-1"
         />
 
-        {/* Left wali rose: left se right */}
         <motion.img
           src="/assets/rose.webp"
           alt="Rose"

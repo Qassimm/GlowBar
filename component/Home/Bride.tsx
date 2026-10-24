@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import HeadingTag from "../UI/HeadingTag";
 import { FaCheck } from "react-icons/fa";
 import Image from "next/image";

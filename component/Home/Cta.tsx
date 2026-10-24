@@ -5,7 +5,6 @@ import Link from "next/link";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { motion, type Variants } from "framer-motion";
 
-// Dono roses ek hi parent se trigger hongi
 const rosesContainer: Variants = {
   hidden: {},
   visible: {
