@@ -16,9 +16,10 @@ const yesteryear = Yesteryear({
 });
 
 const rokkitt = Rokkitt({
-  weight: ["400","500", "600", "700"],
-  variable: "--font-rokkitt",
   subsets: ["latin"],
+  display: "swap",
+  // only add weight if needed; for variable fonts you can omit it
+  // weight: ["400", "700"],
 });
 
 export const metadata: Metadata = {

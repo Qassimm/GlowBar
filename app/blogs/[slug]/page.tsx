@@ -50,7 +50,7 @@ const BlogPage = async ({ params }: Props) => {
 
   return (
     <main className="flex flex-col items-center pb-24 lg:pb-28">
-      <BlogHero src={blog.image} alt={blog.title} />
+      <BlogHero src={blog.image} alt={blog.title}/>
 
       <div className="w-full max-w-6xl px-6 pt-10 lg:pt-14 grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_320px] gap-20">
         <article className="flex flex-col text-start gap-8 min-w-0">
