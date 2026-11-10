@@ -18,6 +18,7 @@ const yesteryear = Yesteryear({
 const rokkitt = Rokkitt({
   subsets: ["latin"],
   display: "swap",
+  variable: "--font-rokkitt",
   // only add weight if needed; for variable fonts you can omit it
   // weight: ["400", "700"],
 });
