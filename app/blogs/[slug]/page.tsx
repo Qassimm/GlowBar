@@ -71,7 +71,7 @@ const BlogPage = async ({ params }: Props) => {
 
           <Link
             href="/about"
-            className="text-xl text-primary font-medium hover:underline w-fit mt-4"
+            className="text-xl text-primary font-medium w-fit mt-4"
           >
             ← Go Back
           </Link>
